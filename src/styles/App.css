@@ -1,0 +1,40 @@
+.App {
+  min-height: 100vh;
+  background-image: url("../img/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+}
+
+.heading-1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.heading-2 {
+  text-align: center;
+  font-size: 27px;
+  color: #1d355d;
+}
+/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,96 @@
+@import "./Variables.scss";
+
+.Quiz {
+  position: relative;
+  border-radius: 24px;
+  background-color: #fff;
+  padding: 4rem 1rem;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 500px;
+
+  .quiz-img {
+    width: 40%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    transform: translateY(-70%);
+  }
+
+  .flag {
+    font-size: 50px;
+  }
+
+  h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: $color-blue-dark-2;
+    margin-bottom: 2rem;
+  }
+
+  .options {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    margin-bottom: 2rem;
+  }
+
+  .btn-light {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid $color-purple;
+    background-color: $color-white;
+    border-radius: 12px;
+    cursor: pointer;
+
+    color: $color-purple;
+    font-size: 18px;
+    font-weight: 500;
+    align-self: stretch;
+    justify-self: flex-end;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &:hover {
+      background-color: $color-orange;
+      border: 1px solid $color-orange;
+      color: $color-white;
+    }
+
+    .btn-option {
+      font-size: 24px;
+      font-weight: 500;
+    }
+  }
+
+  .next {
+    display: flex;
+    justify-content: flex-end;
+
+    .btn-next {
+      width: auto;
+      padding: 0.7rem 2rem;
+      background-color: $color-orange;
+      border: 1px solid $color-orange;
+      color: $color-white;
+      font-weight: 700;
+    }
+  }
+
+  .btn-green {
+    background-color: $color-green;
+    border: 1px solid $color-green;
+    color: #fff;
+  }
+
+  .btn-red {
+    background-color: $color-red;
+    border: 1px solid $color-red;
+    color: #fff;
+  }
+}

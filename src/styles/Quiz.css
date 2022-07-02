@@ -1,0 +1,118 @@
+.Quiz {
+  position: relative;
+  border-radius: 24px;
+  background-color: #fff;
+  padding: 4rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 500px;
+}
+
+.Quiz .quiz-img {
+  width: 40%;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  -webkit-transform: translateY(-70%);
+          transform: translateY(-70%);
+}
+
+.Quiz .flag {
+  font-size: 50px;
+}
+
+.Quiz h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1d355d;
+  margin-bottom: 2rem;
+}
+
+.Quiz .options {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.Quiz .btn-light {
+  width: 100%;
+  padding: 0.7rem;
+  border: 1px solid #6066d0cc;
+  background-color: #fff;
+  border-radius: 12px;
+  cursor: pointer;
+  color: #6066d0cc;
+  font-size: 18px;
+  font-weight: 500;
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
+  justify-self: flex-end;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Quiz .btn-light:hover {
+  background-color: #f9a826;
+  border: 1px solid #f9a826;
+  color: #fff;
+}
+
+.Quiz .btn-light .btn-option {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.Quiz .next {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.Quiz .next .btn-next {
+  width: auto;
+  padding: 0.7rem 2rem;
+  background-color: #f9a826;
+  border: 1px solid #f9a826;
+  color: #fff;
+  font-weight: 700;
+}
+
+.Quiz .btn-green {
+  background-color: #60bf88;
+  border: 1px solid #60bf88;
+  color: #fff;
+}
+
+.Quiz .btn-red {
+  background-color: #ea8282;
+  border: 1px solid #ea8282;
+  color: #fff;
+}
+/*# sourceMappingURL=Quiz.css.map */

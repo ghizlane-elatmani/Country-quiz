@@ -1,0 +1,49 @@
+@import "./Variables.scss";
+
+.EndScreen {
+  border-radius: 24px;
+  background-color: #fff;
+  padding: 4rem 1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 500px;
+
+  .results-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .results {
+    font-size: 48px;
+    font-weight: 700;
+    color: $color-blue-dark-2;
+  }
+
+  .score {
+    font-size: 18px;
+    font-weight: 400;
+    color: $color-blue-dark-2;
+
+    span {
+      font-size: 36px;
+      font-weight: 700;
+      color: $color-green;
+    }
+  }
+
+  .btn-outline-blue {
+    border: 2px solid $color-blue-dark-2;
+    background-color: $color-white;
+    padding: 1rem 3rem;
+    border-radius: 12px;
+
+    font-size: 18px;
+    font-weight: 600;
+    color: $color-blue-dark-2;
+    cursor: pointer;
+  }
+}

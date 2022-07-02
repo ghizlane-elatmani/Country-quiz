@@ -1,0 +1,53 @@
+.Menu {
+  border-radius: 24px;
+  background-color: #fff;
+  padding: 4rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 500px;
+}
+
+.Menu .menu-intro {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Menu img {
+  margin-bottom: 1.5rem;
+}
+
+.Menu .btn {
+  padding: 0.7rem;
+  background: #f9a826;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  justify-self: flex-end;
+}
+/*# sourceMappingURL=Menu.css.map */
