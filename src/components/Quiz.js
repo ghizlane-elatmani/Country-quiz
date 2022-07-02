@@ -40,7 +40,7 @@ const Quiz = () => {
     setOptionB(questionList[currentQuestion].optionB);
     setOptionC(questionList[currentQuestion].optionC);
     setOptionD(questionList[currentQuestion].optionD);
-  }, [currentQuestion]);
+  }, [questionList, currentQuestion]);
 
   const answerHandler = (option, btn) => {
     if (option === answer) {
@@ -118,7 +118,7 @@ const Quiz = () => {
           <p>{optionA}</p>
 
           <p>
-            {buttonClicked == "optionA" ? (
+            {buttonClicked === "optionA" ? (
               optionA !== answer ? (
                 <MdHighlightOff />
               ) : null
@@ -139,7 +139,7 @@ const Quiz = () => {
           <p className="btn-option">B</p>
           <p>{optionB}</p>
           <p>
-            {buttonClicked == "optionB" ? (
+            {buttonClicked === "optionB" ? (
               optionB !== answer ? (
                 <MdHighlightOff />
               ) : null
@@ -160,7 +160,7 @@ const Quiz = () => {
           <p className="btn-option">C</p>
           <p>{optionC}</p>
           <p>
-            {buttonClicked == "optionC" ? (
+            {buttonClicked === "optionC" ? (
               optionC !== answer ? (
                 <MdHighlightOff />
               ) : null
@@ -181,7 +181,7 @@ const Quiz = () => {
           <p className="btn-option">D</p>
           <p>{optionD}</p>
           <p>
-            {buttonClicked == "optionD" ? (
+            {buttonClicked === "optionD" ? (
               optionD !== answer ? (
                 <MdHighlightOff />
               ) : null
